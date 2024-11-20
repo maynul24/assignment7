@@ -1,0 +1,99 @@
+[
+    {
+      "recipe_image": "https://example.com/images/chicken_stirfry.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Chicken Stir Fry",
+      "short_description": "A quick and healthy chicken stir fry with vegetables.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g bell pepper",
+        "150 g broccoli",
+        "2 cloves garlic",
+        "1 tbsp olive oil"
+      ],
+      "preparing_time": "25 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "A classic Italian pasta dish with a rich meat sauce.",
+      "ingredients": [
+        "400 g ground beef",
+        "1 onion",
+        "2 cloves garlic",
+        "400 g tomatoes",
+        "200 g spaghetti",
+        "50 ml red wine"
+      ],
+      "preparing_time": "45 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/vegan_salad.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Vegan Salad",
+      "short_description": "A fresh and nutritious salad made with a variety of vegetables.",
+      "ingredients": [
+        "100 g spinach",
+        "50 g cucumber",
+        "80 g cherry tomatoes",
+        "1 avocado",
+        "30 g sunflower seeds",
+        "2 tbsp olive oil"
+      ],
+      "preparing_time": "15 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/grilled_salmon.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Grilled Salmon",
+      "short_description": "Grilled salmon served with a tangy lemon butter sauce.",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 tbsp olive oil",
+        "1 lemon",
+        "2 cloves garlic",
+        "1 tsp dill",
+        "100 g green beans"
+      ],
+      "preparing_time": "30 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Chocolate Cake",
+      "short_description": "A rich and moist chocolate cake perfect for dessert.",
+      "ingredients": [
+        "200 g flour",
+        "200 g sugar",
+        "100 g cocoa powder",
+        "3 eggs",
+        "150 ml milk",
+        "1 tsp vanilla extract"
+      ],
+      "preparing_time": "60 min",
+      "calories": "500 calories"
+    },
+    {
+      "recipe_image": "https://example.com/images/vegetable_curry.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Vegetable Curry",
+      "short_description": "A flavorful curry made with mixed vegetables and aromatic spices.",
+      "ingredients": [
+        "300 g potatoes",
+        "150 g carrots",
+        "200 g peas",
+        "1 onion",
+        "200 ml coconut milk",
+        "1 tbsp curry powder"
+      ],
+      "preparing_time": "40 min",
+      "calories": "400 calories"
+    }
+  ]
+  

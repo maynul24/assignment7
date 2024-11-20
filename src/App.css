@@ -1,0 +1,13 @@
+
+#root{
+  padding: 0;
+  margin: 0;
+}
+
+.hero-section{
+  background-image: url('./assets/herobg.png'); /* Path relative to the public folder */
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
