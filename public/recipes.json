@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://example.com/images/chicken_stirfry.jpg",
+      "recipe_image": "https://cdn.pixabay.com/photo/2011/05/25/14/49/fry-up-7627_1280.jpg",
       "recipe_id": 1,
       "recipe_name": "Chicken Stir Fry",
       "short_description": "A quick and healthy chicken stir fry with vegetables.",
@@ -16,7 +16,7 @@
       "calories": "320 calories"
     },
     {
-      "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+      "recipe_image": "https://www.vickery.tv/wp-content/uploads/2020/12/SMGD-Spaghetti-Bolognese.jpg",
       "recipe_id": 2,
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "A classic Italian pasta dish with a rich meat sauce.",
@@ -32,7 +32,7 @@
       "calories": "450 calories"
     },
     {
-      "recipe_image": "https://example.com/images/vegan_salad.jpg",
+      "recipe_image": "https://justanotherfoodiegram.com/wp-content/uploads/2020/10/IMG_1456-1024x682.jpg",
       "recipe_id": 3,
       "recipe_name": "Vegan Salad",
       "short_description": "A fresh and nutritious salad made with a variety of vegetables.",
@@ -48,7 +48,7 @@
       "calories": "250 calories"
     },
     {
-      "recipe_image": "https://example.com/images/grilled_salmon.jpg",
+      "recipe_image": "https://img.freepik.com/premium-photo/beautifully-plated-meal-grilled-salmon-roasted-vegetables-set-against-backdrop_756748-35503.jpg",
       "recipe_id": 4,
       "recipe_name": "Grilled Salmon",
       "short_description": "Grilled salmon served with a tangy lemon butter sauce.",
@@ -64,7 +64,7 @@
       "calories": "350 calories"
     },
     {
-      "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+      "recipe_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOv2JeauZhFtmOs0DK5ygJ8y39Sa_o4tETUQ&s",
       "recipe_id": 5,
       "recipe_name": "Chocolate Cake",
       "short_description": "A rich and moist chocolate cake perfect for dessert.",
@@ -80,7 +80,7 @@
       "calories": "500 calories"
     },
     {
-      "recipe_image": "https://example.com/images/vegetable_curry.jpg",
+      "recipe_image": "https://food-images.files.bbci.co.uk/food/recipes/vegetablecurry_80763_16x9.jpg",
       "recipe_id": 6,
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful curry made with mixed vegetables and aromatic spices.",
