@@ -1,5 +1,6 @@
 import React from 'react';
-import Cooking from './Cooking/Coocking'
+import Cooking from '../cooking/cooking';
+
 
 const Cookings = ({cookings}) => {
 
@@ -19,9 +20,11 @@ const Cookings = ({cookings}) => {
                     </thead>
                     <tbody>
                         {cookings.map((cooking, index) => (
-                            <Cooking
-                            key={index} cooking={cooking} index={index}
-                            ></Cooking>
+                           <Cooking
+                           key={index} cooking={cooking} index={index}
+                           ></Cooking>
+                            
+                            
                         ))}
                     </tbody>
                 </table>
