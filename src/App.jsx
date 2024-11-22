@@ -1,9 +1,31 @@
 import './App.css'
 import Navber from './Navber/Navber'
 import Recipes from './Recipes/Recipes'
-import Sidebar from './Sidebar/Sidebar'
+import Sidebars from './Sidebars/Sidebars';
+import Cookings from './Coockings/Cookings';
+import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  const [sidebars, setSidebars] = useState([]);
+  const handleAddToSidebar = (recipe) => {
+    if (!sidebars.some(item => item.recipe_id === recipe.recipe_id)) {
+      setSidebars([...sidebars, recipe]);
+    } else {
+      toast.warning("Item has already been added to the list!");
+    }
+  }
+
+const [cookings, setCookings] = useState ([]);
+const handleAddToCooking = sidebar => {
+const newCookings = [...cookings, sidebar];
+  setCookings(newCookings);
+  const updatedSidebars = sidebars.filter((item) => item.recipe_id !== sidebar.recipe_id);
+  setSidebars(updatedSidebars);
+
+}
 
 
   return (
@@ -22,9 +44,17 @@ function App() {
       <h2 className='mb-6 text-4xl font-bold'>Explore Our Recipes</h2>
       <p className='text-center max-w-[823px]'>Explore cuisines from around the world, healthy options for every lifestyle, and classic comfort foods that bring people together.Let your taste buds embark on an adventure and turn every meal into a celebration.</p>
       </div>
-      <div className='flex'>
-      <Recipes></Recipes>
-      <Sidebar></Sidebar>
+      <div className='flex gap-6'>
+      <Recipes handleAddToSidebar={handleAddToSidebar}></Recipes>
+      <div>
+      <ToastContainer 
+      toastClassName="bg-gray-800 text-white font-semibold rounded-lg shadow-lg px-4 py-3"
+      bodyClassName="text-sm"
+      progressClassName="bg-blue-500 h-1"/>
+      <Sidebars handleAddToCooking={handleAddToCooking} sidebars={sidebars}></Sidebars>
+      <Cookings cookings={cookings}></Cookings>
+      </div>
+     
       </div>
     </div>
 
