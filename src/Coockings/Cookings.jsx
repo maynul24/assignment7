@@ -2,6 +2,7 @@ import React from 'react';
 import Cooking from '../cooking/cooking';
 
 const Cookings = ({cookings}) => {
+
     return (
         <div className='flex-col items-center justify-center border-2 rounded-2xl mt-6 px-6'>
             <h2 className='text-[24px] font-semibold text-center mt-8'>Currently Coocking: {cookings.length}</h2>

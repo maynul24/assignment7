@@ -41,8 +41,8 @@ const newCookings = [...cookings, sidebar];
     </div>
     <div>
       <div className='flex flex-col items-center justify-center'>
-      <h2 className='mb-6 text-4xl font-bold'>Explore Our Recipes</h2>
-      <p className='text-center max-w-[823px]'>Explore cuisines from around the world, healthy options for every lifestyle, and classic comfort foods that bring people together.Let your taste buds embark on an adventure and turn every meal into a celebration.</p>
+      <h2 className='mb-6 text-[40px] font-semibold text-[#150B2B66]'>Explore Our Recipes</h2>
+      <p className='text-center max-w-[823px] text-[#150B2B99]'>Explore cuisines from around the world, healthy options for every lifestyle, and classic comfort foods that bring people together.Let your taste buds embark on an adventure and turn every meal into a celebration.</p>
       </div>
       <div className='flex gap-6'>
       <Recipes handleAddToSidebar={handleAddToSidebar}></Recipes>
