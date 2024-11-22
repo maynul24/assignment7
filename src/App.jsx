@@ -2,7 +2,7 @@ import './App.css'
 import Navber from './Navber/Navber'
 import Recipes from './Recipes/Recipes'
 import Sidebars from './Sidebars/Sidebars';
-import Cookings from './Coockings/Cookings';
+import Cookings from './Cookings/Cookings';
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';

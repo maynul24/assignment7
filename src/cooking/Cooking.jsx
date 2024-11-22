@@ -1,6 +1,6 @@
 import React from 'react';
 
-const cooking = ({cooking,index}) => {
+const Cooking = ({cooking,index}) => {
     const {recipe_name,calories,preparing_time}= cooking;
     return (
         <tr>
@@ -12,4 +12,4 @@ const cooking = ({cooking,index}) => {
     )
 };
 
-export default cooking;
+export default Cooking;
